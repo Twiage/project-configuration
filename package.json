@@ -33,8 +33,16 @@
   "scripts": {
     "lint": "eslint . --fix",
     "lint-staged": "lint-staged",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "version:patch": "npm version patch && git push && git push --tags",
+    "version:minor": "npm version minor && git push && git push --tags",
+    "version:major": "npm version major && git push && git push --tags",
+    "prepare": "husky"
   },
   "type": "module",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3"
+  }
 }
