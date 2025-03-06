@@ -30,7 +30,7 @@
       "import": "./src/ts/*.json"
     }
   },
-  "name": "@twiage/project-configuration",
+  "name": "twiage-project-configuration",
   "scripts": {
     "lint": "eslint . --fix",
     "lint-staged": "lint-staged",
