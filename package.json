@@ -15,7 +15,7 @@
   "exports": {
     "./lint/*": {
       "import": "./src/lint/*.js"
-    }, 
+    },
     "./ts/*": {
       "import": "./src/ts/*.json"
     }
@@ -31,7 +31,7 @@
     "prepare": "husky"
   },
   "type": "module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^15.4.3"
